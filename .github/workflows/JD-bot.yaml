@@ -3,7 +3,7 @@ name: Github JDSign-in bot
 on: # 触发条件
     push:
         branches:
-            - master
+            - main
     workflow_dispatch: # 手动触发
     schedule:
         - cron: '15 16 * * *' # beijing时间 0:15
