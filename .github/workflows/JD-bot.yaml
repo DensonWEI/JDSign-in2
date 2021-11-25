@@ -5,8 +5,9 @@ on: # 触发条件
         branches:
             - main
     workflow_dispatch: # 手动触发
-    schedule:
-        - cron: '15 16 * * *' # beijing时间 0:15
+    # 关闭了定时任务
+    # schedule:
+    #    - cron: '15 16 * * *' # beijing时间 0:15
 jobs:
     build:
         runs-on: ubuntu-latest
